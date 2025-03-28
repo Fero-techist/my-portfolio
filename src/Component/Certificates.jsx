@@ -1,6 +1,7 @@
 import React from "react";
 import certificateone from "../assets/certificate/Certificateone.png";
 import certificateTwo from "../assets/certificate/certificatetwo.png";
+import certificatethree from "../assets/certificate/certificate3.png";
 
 const Certificates = () => {
   const certificate = [
@@ -12,11 +13,16 @@ const Certificates = () => {
       id: 2,
       src: certificateTwo,
     },
+
+    {
+      id: 3,
+      src: certificatethree,
+    },
   ];
   return (
     <div
       name="certificate"
-      className=" bg-gradient-to-bl  py-6  from-black to-gray-800 w-full text-white md:min-h-screen"
+      className=" bg-gradient-to-bl  py-6  from-black to-[#2F1893] w-full text-white md:min-h-screen"
     >
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

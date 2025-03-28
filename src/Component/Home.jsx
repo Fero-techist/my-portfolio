@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" w-full h-screen bg-gradient-to-r from-black to to-gray-800 lg:px-0 md:px-0 px-8 py-6 text-white"
+      className=" w-full h-screen bg-gradient-to-r from-black to to-[#2F1893] lg:px-0 md:px-0 px-8 py-6 text-white"
     >
       <div className="mx-auto max-w-screen-lg flex flex-col items-center justify-between h-full px-4 md:flex-row">
         <div className=" flex flex-col justify-center h-full">
@@ -18,11 +18,11 @@ const Home = () => {
             </span>
           </h2>
 
-          <p className=" text-gray-500 py-2 max-w-md font-Raleway">
-            I have a year of experience building dynamic frontend pages and
+          <p className=" text-white py-2 max-w-md font-Raleway">
+            I have 2 years of experience building dynamic frontend pages and
             designing software. Currently I love to work on project and also
-            collaborae with other developers. I work on technologies like React,
-            Javascript, Tailwind and Many more to come.
+            collaborate with source code and other developers. I work on
+            technologies like React, Javascript, Tailwind and Many more to come.
           </p>
 
           <div className=" font-Raleway">
@@ -39,6 +39,10 @@ const Home = () => {
               </span>
             </Link>
           </div>
+        </div>
+
+        <div className="">
+
         </div>
         <div>
           <img

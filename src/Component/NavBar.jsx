@@ -31,7 +31,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="  flex py-6 justify-between lg:px-18 md:px-12 px-10 items-center text-white bg-gradient-to-bl from-black to-gray-800">
+    <div className="  flex py-6 justify-between lg:px-18 md:px-12 px-10 items-center text-white bg-gradient-to-bl from-black to-[#2F1893]">
       <h1 className=" text-5xl font-GreatVibes ml-2">Ferotech</h1>
 
       <ul className=" hidden md:flex gap-4 list-none">
@@ -52,13 +52,13 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className=" cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className=" cursor-pointer pr-4 z-10 text-white md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className=" flex hover:scale-105 duration-200 absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 flex-col justify-center items-center">
+        <ul className=" flex hover:scale-105 duration-200 absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-[#2F1893] text-white flex-col justify-center items-center">
           {links.map(({ id, link }) => (
             <li
               key={id}
